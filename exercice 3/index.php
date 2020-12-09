@@ -1,4 +1,6 @@
-
+<?php
+    $admin = false;
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -14,8 +16,8 @@
 </head>
 <body>
     <?php
-    $admin = false;
-    if($admin == true){
+
+    if($admin){
         echo "bienvenue viens <a href=#>ici</a>";
     }
     else{
