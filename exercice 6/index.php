@@ -11,7 +11,7 @@
 <body> 
     <ul>
     <?php
-        for($i = 0; count($names); $i++){
+        for($i = 0; $i < count($names); $i++){
             echo '<li>' . $names[$i] . '</li>';
         };
     ?>
