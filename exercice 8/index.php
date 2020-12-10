@@ -1,5 +1,5 @@
 <?php
-    $userInfos[
+    $userInfos = [
         [
             'name' => 'Dan',
             'age' => '26',
@@ -36,9 +36,9 @@
 </head>
 <body>
     <?php
-        foreach($userInfos as $array){
+        foreach($userInfos as $value){
             echo '<pre>';
-            print_r($userInfos);
+            echo '<h2>' . $userInfos['name'] . '</h2>';
             echo '</pre>';
         }
     ?>
