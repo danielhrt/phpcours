@@ -16,7 +16,6 @@
 </head>
 <body>
     <?php
-
     if($admin){
         echo "bienvenue viens <a href=#>ici</a>";
     }
