@@ -1,5 +1,11 @@
 <?php
-    $userinfos = ['username' => 'PikaGame', 'name' => 'Daniel', 'age' => '22 ans', 'city' => 'dijon', 'status' => 'étudiant']
+    $userinfos = [
+        'username' => 'PikaGame',
+        'name' => 'Daniel',
+        'age' => '22 ans',
+        'city' => 'dijon',
+        'status' => 'étudiant'
+    ];
 ?>
 <!DOCTYPE html>
 <html lang="fr">
