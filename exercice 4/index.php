@@ -1,6 +1,3 @@
-<?php
-    $i = 0
-?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -11,6 +8,7 @@
 <body>
     <ul>
         <?php
+                $i = 0
             while($i < 5000){
                 $i++;
                 echo "<li>$i</li>";
