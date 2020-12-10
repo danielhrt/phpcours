@@ -1,5 +1,5 @@
 <?php
-    $name = ['Bob', 'Anthony', 'Jean', 'Max', 'Dan', 'Alex', 'Tom', 'Ben', 'Lea', 'Gwen'];
+    $names = ['Bob', 'Anthony', 'Jean', 'Max', 'Dan', 'Alex', 'Tom', 'Ben', 'Lea', 'Gwen'];
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -11,8 +11,8 @@
 <body> 
     <ul>
     <?php
-        for($i = 0; $i < 10; $i++){
-            echo '<li>' . $name[$i] . '</li>';
+        for($i = 0; count($names); $i++){
+            echo '<li>' . $names[$i] . '</li>';
         };
     ?>
     </ul>
