@@ -7,10 +7,7 @@
     <title>contact</title>
 </head>
 <body>
-    <ul>
-        <li><a href="index.php">Accueil</a></li>
-        <li><a href="shop.php">shop</a></li>
-    </ul>
+<?php include 'menu.php'; ?>
     <h1>contact</h1>
 </body>
 </html>

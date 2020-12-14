@@ -6,10 +6,7 @@
     <title>accueil</title>
 </head>
 <body>
-    <ul>
-        <li><a href="contact.php">Contact</a></li>
-        <li><a href="shop.php">shop</a></li>
-    </ul>
+    <?php include 'menu.php'; ?>
     <h1>Accueil</h1>
 </body>
 </html>

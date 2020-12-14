@@ -6,10 +6,7 @@
     <title>Boutique</title>
 </head>
 <body>
-<ul>
-        <li><a href="contact.php">Contact</a></li>
-        <li><a href="index.php">Accueil</a></li>
-    </ul>
+<?php include 'menu.php'; ?>
     <h1>Boutique</h1>
 </body>
 </html>
