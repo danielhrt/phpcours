@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    If($_GET["name"] AND $_GET["email"] != null){
+    If(isset($_GET["name"]) AND isset($_GET["email"]) === true){
         echo 'bonjour ' . $_GET['name'] . ' ton adresse email est ' . $_GET["email"];
     }
     else {
