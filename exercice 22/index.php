@@ -22,6 +22,7 @@
             text-align: center;
             background-color: white;
             margin: 0;
+            font-size: 1.5em;
         }
     </style>
 </head>
